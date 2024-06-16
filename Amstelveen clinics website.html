@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amstelveen Coaching Clinic</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77a6b6 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main {
+            padding: 20px;
+            background: #fff;
+            margin-bottom: 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        form {
+            background: #fff;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        form div {
+            margin-bottom: 10px;
+        }
+        form label {
+            display: block;
+        }
+        form input, form select, form textarea {
+            width: 100%;
+            padding: 10px;
+        }
+        .button {
+            background: #333;
+            color: #fff;
+            border: 0;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Amstelveen Coaching Clinic</h1>
+            <ul>
+                <li><a href="#about">About the Event</a></li>
+                <li><a href="#clinic">Clinic Program</a></li>
+                <li><a href="#tournament">Tournament</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about" class="main">
+            <h2>About the Event</h2>
+            <p>The Amstelveen Coaching Clinic is a three-day event featuring basketball clinics and a tournament. The event will host well-known international FIBA coaches. On Friday, there will be a full day of basketball clinics for players and coaches. Saturday will feature a basketball tournament with a variety of international teams, and Sunday will host the finals of the tournament. Sleeping and eating arrangements will be provided.</p>
+        </section>
+
+        <section id="clinic" class="main">
+            <h2>Clinic Program</h2>
+            <p>Friday from 11:00 until 18:00, clinics will be given by 5 FIBA coaches to age groups 14 to 16 and 16 to 19 for both boys and girls.</p>
+            <p>From 18:00 to 20:30, there will be a coaching clinic for coaches who coach under 16 players.</p>
+            <p>From 20:30 to 22:30, there will be a coaching clinic for coaches who coach under 19 players. Coaches admission tickets give entry to both clinics.</p>
+        </section>
+
+        <section id="tournament" class="main">
+            <h2>Tournament</h2>
+            <p>The tournament is for boys under 19 years, born in or after 2006. There are two groups (poules) of three teams each. The number 1 of poule A will play against the number 2 of poule B, and the number 2 of poule A will play the number 1 of poule B in the semi-finals. The winners of the semi-finals will play in the finals on Sunday. Teams are from Spain, Croatia, Netherlands, Belgium, and Germany.</p>
+            <h3>Saturday Schedule</h3>
+            <ul>
+                <li>09:30 - 11:00 Team A1 x Team A2</li>
+                <li>11:00 - 12:30 Team B1 x Team B2</li>
+                <li>12:30 - 14:00 Team A1 x Team A3</li>
+                <li>14:00 - 15:00 Team B1 x Team B3</li>
+                <li>15:00 - 16:30 Team A2 x Team A3</li>
+                <li>16:30 - 18:00 Team B2 x Team B3</li>
+                <li>18:00 - 20:00 Nr 1 Poule A x nr 2 Poule B</li>
+                <li>21:00 - 22:30 Nr 1 Poule B x nr 2 Poule A</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="main">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:Amstelveenclinics@MBCA.nl">Amstelveenclinics@MBCA.nl</a></p>
+            <p>Phone Number: 020-1324356</p>
+            <p>Instagram: <a href="https://www.instagram.com/MBCAClinics" target="_blank">@MBCAClinics</a></p>
+            <p>Facebook: <a href="https://www.facebook.com/MBCAClinics" target="_blank">MBCA Clinics</a></p>
+
+            <h3>Contact Form for Participants</h3>
+            <form>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="program">Program</label>
+                    <select id="program" name="program">
+                        <option value="clinic">Clinic</option>
+                        <option value="tournament">Tournament</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="submit" class="button">Submit</button>
+                </div>
+            </form>
+
+            <h3>Ticket Form for Spectators</h3>
+            <form>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <button type="submit" class="button">Submit</button>
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>Amstelveen Coaching Clinic &copy; 2024</p>
+    </footer>
+</body>
+</html>
